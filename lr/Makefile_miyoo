@@ -1,0 +1,6 @@
+all:
+	arm-linux-gcc main.c -o lr -lSDL -ldl -I/opt/miyoo/usr/arm-miyoo-linux-uclibcgnueabi/sysroot/usr/include/SDL
+	arm-linux-strip lr
+
+clean:
+	rm -rf lr
