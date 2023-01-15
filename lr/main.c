@@ -523,16 +523,16 @@ int main(int argc, char**argv)
       if(event.key.keysym.sym == SDLK_RIGHT){
         key[RETRO_DEVICE_ID_JOYPAD_RIGHT] = val;
       }
-      if(event.key.keysym.sym == SDLK_LCTRL){
+      if(event.key.keysym.sym == SDLK_LALT){ // SDLK_LCTRL){
         key[RETRO_DEVICE_ID_JOYPAD_A] = val;
       }
-      if(event.key.keysym.sym == SDLK_LALT){
+      if(event.key.keysym.sym == SDLK_LCTRL){ //SDLK_LALT){
         key[RETRO_DEVICE_ID_JOYPAD_B] = val;
       }
-      if(event.key.keysym.sym == SDLK_SPACE){
+      if(event.key.keysym.sym == SDLK_LSHIFT){ // SDLK_SPACE){
         key[RETRO_DEVICE_ID_JOYPAD_X] = val;
       }
-      if(event.key.keysym.sym == SDLK_LSHIFT){
+      if(event.key.keysym.sym == SDLK_SPACE){ // SDLK_LSHIFT){
         key[RETRO_DEVICE_ID_JOYPAD_Y] = val;
       }
       if(event.key.keysym.sym == SDLK_RETURN){
