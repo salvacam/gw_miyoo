@@ -539,6 +539,9 @@ int main(int argc, char**argv)
         key[RETRO_DEVICE_ID_JOYPAD_START] = val;
       }
       if(event.key.keysym.sym == SDLK_ESCAPE){
+        key[RETRO_DEVICE_ID_JOYPAD_SELECT] = val;
+      }
+      if(event.key.keysym.sym == SDLK_RCTRL){ // SDLK_ESCAPE){
         break;
       }
       if(event.key.keysym.sym == SDLK_TAB){
