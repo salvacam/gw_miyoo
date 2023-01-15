@@ -1,3 +1,5 @@
+[Original code from Steward](https://github.com/steward-fu/rg350/releases/download/v1.1/gw-libretro.tar.gz)
+
 # gw-libretro
 
 **gw-libretro** is a [libretro](http://www.libretro.com/) core that runs Game & Watch simulators.
