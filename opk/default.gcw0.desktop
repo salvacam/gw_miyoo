@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=gw-libretro
+Comment=Game & Watch Emulator
+Exec=lr %f
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=icon
+Categories=emulators;
+MimeType=application/mgw;
